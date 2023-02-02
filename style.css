@@ -1,0 +1,258 @@
+/*
+Theme Name:   Brabus Ced Child
+Theme URI:        http://example.com/twenty-seventeen-child/
+Description:  Brabus Ced Theme
+Author:           CedCommerce
+Template:         brabus
+Version:          1.0.0
+License:          GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Tags: light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain:  brabus-child
+*/
+
+@font-face {
+    font-family: 'ThunderExtBd';
+    src: url('Fonts/Web-PS/Thunder-ExtraBoldHC.woff2') format('woff2'), /* Modern Browsers */
+    url('Fonts/Web-PS/Thunder-ExtraBoldHC.otf') format('opentype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'Thunder';
+    src: url('Fonts/Web-PS/Thunder-BoldLC.woff2') format('woff2'), /* Modern Browsers */
+         url('Fonts/Web-PS/Thunder-BoldLC.otf') format('opentype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'ThunderLight';
+    src: url('Fonts/Web-PS/Thunder-LightLC.woff2') format('woff2'), /* Modern Browsers */
+         url('Fonts/Web-PS/Thunder-LightLC.otf') format('opentype'); /* Safari, Android, iOS */
+}
+@font-face {
+    font-family: 'ThunderExtLt';
+    src: url('Fonts/Web-PS/Thunder-ExtraLightLC.woff2') format('woff2'), /* Modern Browsers */
+         url('Fonts/Web-PS/Thunder-ExtraLightLC.otf') format('opentype'); /* Safari, Android, iOS */
+}
+@font-face {
+    font-family: 'Aileron';
+    src: url('Fonts/Aileron/Aileron-Regular.otf') format('woff2'), /* Modern Browsers */
+}
+h1
+{
+    font-family: 'thunder';
+}
+p
+{
+    font-family: 'Aileron';
+    font-size: 18px;
+}
+body{
+    overflow-x: hidden;
+}
+
+.ced-experts-light-text
+{
+    font-family: 'ThunderExtLt';
+}
+
+.ced-experts-section {
+    padding: 50px 0;
+}
+
+.ced-experts-heading
+{
+    font-size: 80px;
+    font-family: 'Thunder';
+    color: #006A68;
+}
+
+.ced-experts-para
+{
+    font-size: 18px;
+}
+
+.experts-banner-bg {
+    background: radial-gradient(at 45% 0%, #FFF6E6 28%, transparent 60%),
+    radial-gradient(at 100% 0%, #ECE6FF 25%, transparent 50%),
+    radial-gradient(at 0% 35%, #E6EDFF 25%, transparent 40%),
+    radial-gradient(at 100% 70%, #FFE6E6 15%, transparent 40%),
+    radial-gradient(at 65% 70%, #E6FFFC 30%, transparent 68%),
+    radial-gradient(at 0% 60%, #E6FFF0 50%, transparent 70%);
+    color: #006A68;
+    
+}
+
+.ced-experts-center-align {
+    text-align: center;
+}
+
+.ced-experts-hero-wrap {
+    padding: 100px 0 50px 0px;
+}
+
+.ced-experts-hero-title {
+    position: relative;
+    font-size: 80px;
+    margin-bottom: 2rem;
+    font-family: '';
+    z-index: 2;
+    line-height: 1;
+}
+
+.bold-text {
+    font-size: 80px;
+    font-family: 'Thunder';
+}
+
+.ced-experts-hero-wrap {
+    position: relative;
+}
+
+.ced-experts-hero-star-img {
+    position: absolute;
+    right: 142px;
+    top: 70px;
+    z-index: 0;
+}
+
+.ced-experts-connect-btn {
+    display: block;
+    border: 1px solid #006A68;
+    color: #006A68;
+    width: 200px;
+    margin: auto;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+
+}
+
+.ced-experts-mouse {
+    border-radius: 32.4118px;
+    border: 1.70588px solid #006A68;
+    width: 29px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.ced-experts-mouse-wheel {
+    border-radius: 46.0588px;
+    width: 5.12px;
+    height: 17.06px;
+    position: absolute;
+    background: #006A68;
+    top: 10px;
+}
+
+/* .ced-experts-counter-section {
+    background: #FFF6E6;
+    transform: rotate(5deg);
+    margin-left: -10px;
+    margin-right: -10px;
+} */
+
+.ced-client-counter-wrapper-sec
+{
+    position: relative;
+}
+
+.ced-client-counter-wrapper.ltr
+{
+    position: absolute;
+    background: #E6FFF0;
+    border: 5px solid #fff;
+    transform: translate(-50%,-50%) rotate(-3deg);
+    left: 50%;
+    top: 50%;
+    width: 100%;
+}
+
+.ced-client-counter-wrapper.rtl
+{
+    position: absolute;
+    background: #FFF6E6;
+    border: 5px solid #fff;
+    transform: translate(-50%,-50%) rotate(3deg);
+    left: 50%;
+    top: 50%;
+    width: 100%;
+}
+
+.ced-experts-counter-para {
+    color: #404040;
+    font-size: 22px;
+    display: flex;
+    /* font-weight: 400; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+span.counter-bold-text {
+    font-size: 65px;
+    font-family: 'Thunder';
+    color: #006A68;
+    /* line-height: 0; */
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.ced-experts-about-section {
+    background: #FFF6E6;
+    padding-top: 150px;
+}
+
+.ced-experts-about-head {
+    margin-bottom: 30px;
+}
+
+.ced-experts-about-section img
+{
+    width: 100%;
+    height: auto;
+}
+.ced-experts-expertise-head 
+{
+    padding: 20px 0;
+}
+.ced-experts-expertise-post-card-img img
+{
+    width: 100%;
+    height: auto;
+}
+.ced-experts-expertise-post-card-body h4
+{
+    font-size: 28px;
+    color: #006A68;
+    margin-bottom: 15px;
+}
+.ced-experts-expertise-post-card-body a
+{
+    font-size: 20px;
+    color: #000000;
+}
+.ced-experts-testimonial-post-card
+{
+    background: #FFF6E6;
+    border-width: 2px 4px 11px 4px;
+    border-style: solid;
+    border-color: #006A68;
+    border-radius: 50px;
+    padding: 30px;
+}
+.ced-experts-testimonial-card-img
+{
+    margin-bottom: 30px;
+}
+.ced-experts-testimonial-card-body p
+{
+    margin-bottom: 30px;
+}
+.ced-experts-rating
+{
+    color: #FFC96B;
+}
